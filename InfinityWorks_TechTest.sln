@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityWorks_TechTest", "InfinityWorks_TechTest\InfinityWorks_TechTest.csproj", "{291B1639-DE7B-415E-9E87-6009FFA5390A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityWorks_TechTest.Tests", "InfinityWorks_TechTest.Tests\InfinityWorks_TechTest.Tests.csproj", "{A75ED10B-E973-43D1-83B7-E19CD5CDAC1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40B604BF-7138-4DF2-81E6-523CF0AECDA5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{291B1639-DE7B-415E-9E87-6009FFA5390A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291B1639-DE7B-415E-9E87-6009FFA5390A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291B1639-DE7B-415E-9E87-6009FFA5390A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291B1639-DE7B-415E-9E87-6009FFA5390A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75ED10B-E973-43D1-83B7-E19CD5CDAC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75ED10B-E973-43D1-83B7-E19CD5CDAC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75ED10B-E973-43D1-83B7-E19CD5CDAC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75ED10B-E973-43D1-83B7-E19CD5CDAC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

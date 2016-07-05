@@ -1,0 +1,26 @@
+﻿@model List<KeyValuePair<String, String>>
+@{
+    ViewBag.Title = "RatingPercentageSummary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Rating Summary</h2>
+
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th>Rating</th>
+            <th>Percentage</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (KeyValuePair<String, String> rating in Model)
+        {
+            <tr>
+                <td>@rating.Key</td>
+                <td>@rating.Value</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

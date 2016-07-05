@@ -1,0 +1,16 @@
+﻿@using InfinityWorks_TechTest.ViewModels
+@model AuthoritiesViewModel
+@{
+    ViewBag.Title = "AuthoritiesList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Authorities</h2>
+@using (Html.BeginForm("RatingPercentageSummary", "Authorities", FormMethod.Get))
+{
+    @Html.DropDownListFor(m => m.id, new SelectList(Model.authoritiesDict, "Key", "Value"))
+    <input type="submit" value="Get Rating Summary"/>
+}
+
+
+
